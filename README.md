@@ -6,5 +6,5 @@ Example:
 
 ```
 docker run --rm -v "$(pwd)":/data -w /data inutano/delve delve index genome.fa
-docker run --rm -v "$(pwd)":/data -w /data inutano/delve realign alignments.sam
+docker run --rm -v "$(pwd)":/data -w /data inutano/delve delve realign alignments.sam
 ```
